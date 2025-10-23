@@ -1,0 +1,75 @@
+{
+  "name": "LingoPlay A1 - İngilizce Öğrenme Oyunu",
+  "short_name": "LingoPlay",
+  "description": "Ortaokul öğrencileri için eğlenceli İngilizce öğrenme uygulaması",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#FFFFFF",
+  "theme_color": "#FF6B6B",
+  "orientation": "portrait-primary",
+  "icons": [
+    {
+      "src": "data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 192 192'><defs><linearGradient id='grad' x1='0%' y1='0%' x2='100%' y2='100%'><stop offset='0%' style='stop-color:%23FF6B6B;stop-opacity:1' /><stop offset='100%' style='stop-color:%234ECDC4;stop-opacity:1' /></linearGradient></defs><rect fill='url(%23grad)' width='192' height='192'/><text x='96' y='96' font-size='120' fill='white' text-anchor='middle' dominant-baseline='middle' font-weight='bold'>🎮</text></svg>",
+      "sizes": "192x192",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    },
+    {
+      "src": "data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 512 512'><defs><linearGradient id='grad' x1='0%' y1='0%' x2='100%' y2='100%'><stop offset='0%' style='stop-color:%23FF6B6B;stop-opacity:1' /><stop offset='100%' style='stop-color:%234ECDC4;stop-opacity:1' /></linearGradient></defs><rect fill='url(%23grad)' width='512' height='512'/><text x='256' y='256' font-size='320' fill='white' text-anchor='middle' dominant-baseline='middle' font-weight='bold'>🎮</text></svg>",
+      "sizes": "512x512",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    }
+  ],
+  "screenshots": [
+    {
+      "src": "data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 540 720'><rect fill='%23667eea' width='540' height='720'/><text x='270' y='360' font-size='100' fill='white' text-anchor='middle' dominant-baseline='middle'>LingoPlay A1</text></svg>",
+      "sizes": "540x720",
+      "type": "image/svg+xml",
+      "form_factor": "narrow"
+    }
+  ],
+  "categories": ["education", "productivity"],
+  "shortcuts": [
+    {
+      "name": "Dersleri Aç",
+      "short_name": "Dersler",
+      "description": "Tüm dersleri görüntüle",
+      "url": "/?tab=lessons",
+      "icons": [
+        {
+          "src": "data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 96 96'><rect fill='%23FF6B6B' width='96' height='96'/><text x='48' y='48' font-size='60' fill='white' text-anchor='middle' dominant-baseline='middle'>📚</text></svg>",
+          "sizes": "96x96",
+          "type": "image/svg+xml"
+        }
+      ]
+    },
+    {
+      "name": "Oyun Oyna",
+      "short_name": "Oyun",
+      "description": "Kelime eşleştirme oyununu oyna",
+      "url": "/?tab=game",
+      "icons": [
+        {
+          "src": "data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 96 96'><rect fill='%234ECDC4' width='96' height='96'/><text x='48' y='48' font-size='60' fill='white' text-anchor='middle' dominant-baseline='middle'>🎮</text></svg>",
+          "sizes": "96x96",
+          "type": "image/svg+xml"
+        }
+      ]
+    },
+    {
+      "name": "Test Çöz",
+      "short_name": "Test",
+      "description": "Bilgini test et",
+      "url": "/?tab=test",
+      "icons": [
+        {
+          "src": "data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 96 96'><rect fill='%23FFE66D' width='96' height='96'/><text x='48' y='48' font-size='60' fill='white' text-anchor='middle' dominant-baseline='middle'>✏️</text></svg>",
+          "sizes": "96x96",
+          "type": "image/svg+xml"
+        }
+      ]
+    }
+  ]
+}
+

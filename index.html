@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LingoPlay A1 - İngilizce Öğrenme Oyunu</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="manifest" href="manifest.json">
+    <meta name="theme-color" content="#FF6B6B">
+</head>
+<body>
+    <div id="app"></div>
+
+    <!-- Ana Sayfa -->
+    <div id="homePage" class="page active">
+        <header class="header">
+            <div class="header-content">
+                <div class="logo-section">
+                    <h1 class="app-title">🎮 LingoPlay A1</h1>
+                    <p class="app-subtitle">İngilizce öğrenmeye rahatlatıcı bir başlangıç yapın!</p>
+                </div>
+                <div class="header-controls">
+                    <button class="btn-icon" id="langBtn" title="Dil Seç">🌐</button>
+                    <button class="btn-icon" id="themeBtn" title="Tema Değiştir">🌙</button>
+                </div>
+            </div>
+        </header>
+
+        <main class="main-content">
+            <div class="progress-section">
+                <div class="progress-card">
+                    <h2>📊 Genel İlerleme</h2>
+                    <div class="progress-bar">
+                        <div class="progress-fill" id="progressFill" style="width: 0%"></div>
+                    </div>
+                    <p class="progress-text"><span id="progressPercent">0</span>% Tamamlandı</p>
+                    <p class="progress-lessons"><span id="completedLessons">0</span> / <span id="totalLessons">8</span> Ders</p>
+                </div>
+            </div>
+
+            <div class="lessons-grid" id="lessonsGrid">
+                <!-- Dersler buraya yüklenecek -->
+            </div>
+        </main>
+
+        <footer class="footer">
+            <p>🌟 LingoPlay ile İngilizce Öğren! 🌟</p>
+            <p>Eğlenceli oyunlar ve testlerle dil becerilerini geliştir</p>
+        </footer>
+    </div>
+
+    <!-- Ders Sayfası -->
+    <div id="lessonPage" class="page">
+        <header class="header">
+            <div class="header-content">
+                <button class="btn-back" onclick="goHome()">← Geri</button>
+                <h1 id="lessonTitle" class="lesson-title"></h1>
+                <div class="header-controls">
+                    <button class="btn-icon" id="langBtn2" title="Dil Seç">🌐</button>
+                    <button class="btn-icon" id="themeBtn2" title="Tema Değiştir">🌙</button>
+                </div>
+            </div>
+        </header>
+
+        <main class="main-content">
+            <div class="lesson-tabs">
+                <button class="tab-btn active" onclick="switchTab('notes')">📖 Notlar</button>
+                <button class="tab-btn" onclick="switchTab('game')">🎮 Oyun</button>
+                <button class="tab-btn" onclick="switchTab('test')">✏️ Test</button>
+            </div>
+
+            <!-- Notlar Tab -->
+            <div id="notesTab" class="tab-content active">
+                <div class="notes-container" id="notesContainer">
+                    <!-- Notlar buraya yüklenecek -->
+                </div>
+            </div>
+
+            <!-- Oyun Tab -->
+            <div id="gameTab" class="tab-content">
+                <div class="game-container">
+                    <h2>🎯 Kelime Eşleştirme Oyunu</h2>
+                    <p class="game-instruction">İngilizce kelimeleri Türkçe karşılıklarıyla eşleştirin!</p>
+                    
+                    <div class="game-stats">
+                        <div class="stat">
+                            <span class="stat-label">Denemeler:</span>
+                            <span class="stat-value" id="attempts">0</span>
+                        </div>
+                        <div class="stat">
+                            <span class="stat-label">Doğruluk:</span>
+                            <span class="stat-value" id="accuracy">0%</span>
+                        </div>
+                    </div>
+
+                    <div class="game-board" id="gameBoard">
+                        <!-- Oyun kartları buraya yüklenecek -->
+                    </div>
+
+                    <button class="btn-primary" onclick="resetGame()">🔄 Oyunu Sıfırla</button>
+                </div>
+            </div>
+
+            <!-- Test Tab -->
+            <div id="testTab" class="tab-content">
+                <div class="test-container">
+                    <div id="testContent">
+                        <!-- Test soruları buraya yüklenecek -->
+                    </div>
+                </div>
+            </div>
+        </main>
+    </div>
+
+    <!-- Oyun Tamamlandı Modal -->
+    <div id="gameCompleteModal" class="modal">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h2>🎉 Tebrikler!</h2>
+            </div>
+            <div class="modal-body">
+                <img src="images/mascot_happy.png" alt="Mascot" class="modal-mascot">
+                <p id="gameCompleteMessage"></p>
+                <div class="modal-stats">
+                    <div class="stat-item">
+                        <span class="stat-label">Toplam Deneme:</span>
+                        <span class="stat-value" id="totalAttempts">0</span>
+                    </div>
+                    <div class="stat-item">
+                        <span class="stat-label">Başarı Oranı:</span>
+                        <span class="stat-value" id="finalAccuracy">0%</span>
+                    </div>
+                </div>
+            </div>
+            <div class="modal-footer">
+                <button class="btn-secondary" onclick="closeGameCompleteModal()">Devam Et</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Test Tamamlandı Modal -->
+    <div id="testCompleteModal" class="modal">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h2>📊 Test Sonucu</h2>
+            </div>
+            <div class="modal-body">
+                <img src="images/mascot_thinking.png" alt="Mascot" class="modal-mascot">
+                <div class="test-score">
+                    <p class="score-text">Puanınız:</p>
+                    <p class="score-value"><span id="testScore">0</span>/10</p>
+                </div>
+                <p id="testFeedback" class="test-feedback"></p>
+            </div>
+            <div class="modal-footer">
+                <button class="btn-secondary" onclick="closeTestCompleteModal()">Ana Sayfa</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Dil Seçimi Modal -->
+    <div id="languageModal" class="modal">
+        <div class="modal-content modal-small">
+            <div class="modal-header">
+                <h2>🌐 Dil Seç</h2>
+            </div>
+            <div class="modal-body">
+                <button class="btn-language" onclick="setLanguage('tr')">🇹🇷 Türkçe</button>
+                <button class="btn-language" onclick="setLanguage('en')">🇬🇧 English</button>
+            </div>
+            <div class="modal-footer">
+                <button class="btn-secondary" onclick="closeLanguageModal()">Kapat</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="js/translations.js"></script>
+    <script src="js/app.js"></script>
+    <script src="js/game.js"></script>
+    <script src="js/test.js"></script>
+    <script src="js/offline.js"></script>
+</body>
+</html>
+

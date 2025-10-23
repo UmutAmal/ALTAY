@@ -1,0 +1,645 @@
+{
+  "lessons": [
+    {
+      "id": 1,
+      "title": "Ders 1: İsimler (Nouns)",
+      "titleEn": "Lesson 1: Nouns",
+      "description": "Temel isimleri öğrenin",
+      "icon": "📚",
+      "color": "#FF6B6B",
+      "words": [
+        { "english": "Book", "turkish": "Kitap", "emoji": "📖" },
+        { "english": "Table", "turkish": "Masa", "emoji": "🪑" },
+        { "english": "Cat", "turkish": "Kedi", "emoji": "🐱" },
+        { "english": "House", "turkish": "Ev", "emoji": "🏠" },
+        { "english": "Apple", "turkish": "Elma", "emoji": "🍎" },
+        { "english": "Water", "turkish": "Su", "emoji": "💧" },
+        { "english": "Friend", "turkish": "Arkadaş", "emoji": "👫" },
+        { "english": "City", "turkish": "Şehir", "emoji": "🏙️" }
+      ],
+      "testQuestions": [
+        {
+          "question": "Aşağıdakilerden hangisi bir isimdir?",
+          "options": ["Run", "Beautiful", "Cat", "Quickly"],
+          "correct": 2,
+          "explanation": "Cat (kedi) bir isimdir çünkü bir hayvanı adlandırır."
+        },
+        {
+          "question": "'Happiness' kelimesi ne tür bir isimdir?",
+          "options": ["Somut isim", "Soyut isim", "Özel isim", "Topluluk ismi"],
+          "correct": 1,
+          "explanation": "Happiness (mutluluk) soyut bir isimdir."
+        },
+        {
+          "question": "Aşağıdaki cümledeki ismi bulun: 'The dog is barking.'",
+          "options": ["The", "dog", "is", "barking"],
+          "correct": 1,
+          "explanation": "'Dog' (köpek) cümledeki isimdir."
+        },
+        {
+          "question": "Hangi kelime somut bir isimdir?",
+          "options": ["Joy", "Table", "Courage", "Freedom"],
+          "correct": 1,
+          "explanation": "Table (masa) elle tutulabilir, gözle görülebilir somut bir isimdir."
+        },
+        {
+          "question": "'London' ne tür bir isimdir?",
+          "options": ["Cins isim", "Özel isim", "Soyut isim", "Topluluk ismi"],
+          "correct": 1,
+          "explanation": "London özel bir isimdir ve büyük harfle başlar."
+        },
+        {
+          "question": "Aşağıdakilerden hangisi soyut bir isimdir?",
+          "options": ["Chair", "Love", "Apple", "Car"],
+          "correct": 1,
+          "explanation": "Love (aşk) soyut bir isimdir."
+        },
+        {
+          "question": "İsimler cümlede ne işlevi görür?",
+          "options": ["Hareket belirtir", "Nesne veya özne olur", "Sıfat görevi görür", "Bağlaç görevi görür"],
+          "correct": 1,
+          "explanation": "İsimler cümlede özne veya nesne olarak kullanılır."
+        },
+        {
+          "question": "'Water' kelimesi ne tür bir isimdir?",
+          "options": ["Sayılabilir isim", "Sayılamaz isim", "Özel isim", "Soyut isim"],
+          "correct": 1,
+          "explanation": "Water sayılamaz bir isimdir."
+        },
+        {
+          "question": "Aşağıdakilerden hangisi cins isimdir?",
+          "options": ["Paris", "book", "Microsoft", "Emma"],
+          "correct": 1,
+          "explanation": "Book genel bir isimdir, özel değildir."
+        },
+        {
+          "question": "Hangi cümledeki isim doğru kullanılmıştır?",
+          "options": ["She is run.", "The happiness is here.", "I see a cat.", "He very quick."],
+          "correct": 2,
+          "explanation": "'I see a cat.' cümlesinde 'cat' ismi doğru kullanılmıştır."
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Ders 2: Fiiller (Verbs)",
+      "titleEn": "Lesson 2: Verbs",
+      "description": "Fiilleri ve hareketleri öğrenin",
+      "icon": "🏃",
+      "color": "#4ECDC4",
+      "words": [
+        { "english": "Run", "turkish": "Koşmak", "emoji": "🏃" },
+        { "english": "Eat", "turkish": "Yemek", "emoji": "🍽️" },
+        { "english": "Sleep", "turkish": "Uyumak", "emoji": "😴" },
+        { "english": "Write", "turkish": "Yazmak", "emoji": "✍️" },
+        { "english": "Read", "turkish": "Okumak", "emoji": "📖" },
+        { "english": "Jump", "turkish": "Atlamak", "emoji": "🦘" },
+        { "english": "Sing", "turkish": "Şarkı söylemek", "emoji": "🎵" },
+        { "english": "Dance", "turkish": "Dans etmek", "emoji": "💃" }
+      ],
+      "testQuestions": [
+        {
+          "question": "Aşağıdakilerden hangisi bir fiildir?",
+          "options": ["Beautiful", "Run", "Table", "Happy"],
+          "correct": 1,
+          "explanation": "Run (koşmak) bir eylem bildiren fiildir."
+        },
+        {
+          "question": "'She _____ to school every day.' Boşluğa hangi fiil gelmelidir?",
+          "options": ["walk", "walks", "walking", "walked"],
+          "correct": 1,
+          "explanation": "Tekil özne (she) için 'walks' kullanılır."
+        },
+        {
+          "question": "Geçmiş zaman fiil hangisidir?",
+          "options": ["eat", "eats", "ate", "eating"],
+          "correct": 2,
+          "explanation": "'Ate' eat fiilinin geçmiş zaman halidir."
+        },
+        {
+          "question": "'I am happy.' cümlesindeki fiil hangisidir?",
+          "options": ["I", "am", "happy", "Fiil yok"],
+          "correct": 1,
+          "explanation": "'Am' yardımcı fiildir (to be fiilinin çekimi)."
+        },
+        {
+          "question": "Aşağıdakilerden hangisi eylem fiilidir?",
+          "options": ["is", "jump", "was", "are"],
+          "correct": 1,
+          "explanation": "Jump (atlamak) bir eylem fiilidir."
+        },
+        {
+          "question": "'They will play tomorrow.' Hangi zamandır?",
+          "options": ["Şimdiki zaman", "Geçmiş zaman", "Gelecek zaman", "Geniş zaman"],
+          "correct": 2,
+          "explanation": "'Will' gelecek zaman belirtir."
+        },
+        {
+          "question": "'He _____ a book yesterday.' Boşluğa ne gelir?",
+          "options": ["read (şimdiki)", "reads", "read (geçmiş)", "reading"],
+          "correct": 2,
+          "explanation": "'Read' kelimesinin geçmiş hali de read'dir."
+        },
+        {
+          "question": "Düzenli fiil hangisidir?",
+          "options": ["go-went", "walk-walked", "eat-ate", "run-ran"],
+          "correct": 1,
+          "explanation": "Walk-walked düzenli fiildir (-ed eki alır)."
+        },
+        {
+          "question": "'I am singing.' Hangi zaman kipindedir?",
+          "options": ["Simple present", "Present continuous", "Past continuous", "Simple past"],
+          "correct": 1,
+          "explanation": "Am singing present continuous yapısıdır."
+        },
+        {
+          "question": "To be fiilinin üçüncü tekil şahıs hali nedir?",
+          "options": ["am", "is", "are", "be"],
+          "correct": 1,
+          "explanation": "He/She/It için 'is' kullanılır."
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "title": "Ders 3: Sıfatlar (Adjectives)",
+      "titleEn": "Lesson 3: Adjectives",
+      "description": "Sıfatları ve özellikleri öğrenin",
+      "icon": "✨",
+      "color": "#FFE66D",
+      "words": [
+        { "english": "Big", "turkish": "Büyük", "emoji": "📏" },
+        { "english": "Small", "turkish": "Küçük", "emoji": "🤏" },
+        { "english": "Beautiful", "turkish": "Güzel", "emoji": "🌸" },
+        { "english": "Happy", "turkish": "Mutlu", "emoji": "😊" },
+        { "english": "Sad", "turkish": "Üzgün", "emoji": "😢" },
+        { "english": "Hot", "turkish": "Sıcak", "emoji": "🔥" },
+        { "english": "Cold", "turkish": "Soğuk", "emoji": "❄️" },
+        { "english": "Fast", "turkish": "Hızlı", "emoji": "⚡" }
+      ],
+      "testQuestions": [
+        {
+          "question": "Aşağıdakilerden hangisi bir sıfattır?",
+          "options": ["Run", "Beautiful", "Book", "Eat"],
+          "correct": 1,
+          "explanation": "Beautiful (güzel) bir sıfattır."
+        },
+        {
+          "question": "'The _____ cat is sleeping.' Boşluğa ne gelir?",
+          "options": ["run", "beautiful", "eat", "jump"],
+          "correct": 1,
+          "explanation": "'Beautiful' sıfat olarak 'cat' ismine uyar."
+        },
+        {
+          "question": "Sıfatlar cümlede neyi anlatır?",
+          "options": ["Hareketi", "Özelliği", "Zamanı", "Yeri"],
+          "correct": 1,
+          "explanation": "Sıfatlar isimlerin özelliklerini anlatır."
+        },
+        {
+          "question": "'Big' kelimesinin zıttı nedir?",
+          "options": ["Small", "Fast", "Happy", "Cold"],
+          "correct": 0,
+          "explanation": "'Big' (büyük) kelimesinin zıttı 'Small' (küçük) dir."
+        },
+        {
+          "question": "'Hot' kelimesinin zıttı nedir?",
+          "options": ["Fast", "Cold", "Beautiful", "Happy"],
+          "correct": 1,
+          "explanation": "'Hot' (sıcak) kelimesinin zıttı 'Cold' (soğuk) dur."
+        },
+        {
+          "question": "'Happy' sıfatı hangi duyguyu ifade eder?",
+          "options": ["Üzüntü", "Mutluluk", "Korku", "Öfke"],
+          "correct": 1,
+          "explanation": "'Happy' (mutlu) mutluluk duygusunu ifade eder."
+        },
+        {
+          "question": "'The fast car' cümlesinde sıfat hangisidir?",
+          "options": ["The", "fast", "car", "Sıfat yok"],
+          "correct": 1,
+          "explanation": "'Fast' (hızlı) sıfat olarak 'car' ismine uyar."
+        },
+        {
+          "question": "Aşağıdakilerden hangisi sıfat değildir?",
+          "options": ["Beautiful", "Happy", "Run", "Small"],
+          "correct": 2,
+          "explanation": "'Run' (koşmak) fiildir, sıfat değildir."
+        },
+        {
+          "question": "'Sad' sıfatı hangi duyguyu ifade eder?",
+          "options": ["Mutluluk", "Üzüntü", "Korku", "Öfke"],
+          "correct": 1,
+          "explanation": "'Sad' (üzgün) üzüntü duygusunu ifade eder."
+        },
+        {
+          "question": "'Beautiful' sıfatının zıttı nedir?",
+          "options": ["Ugly", "Small", "Cold", "Sad"],
+          "correct": 0,
+          "explanation": "'Beautiful' (güzel) kelimesinin zıttı 'Ugly' (çirkin) dir."
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "title": "Ders 4: Zamirler (Pronouns)",
+      "titleEn": "Lesson 4: Pronouns",
+      "description": "Zamirler ve kullanımlarını öğrenin",
+      "icon": "👤",
+      "color": "#95E1D3",
+      "words": [
+        { "english": "I", "turkish": "Ben", "emoji": "👆" },
+        { "english": "You", "turkish": "Sen", "emoji": "👉" },
+        { "english": "He", "turkish": "O (erkek)", "emoji": "👨" },
+        { "english": "She", "turkish": "O (kadın)", "emoji": "👩" },
+        { "english": "It", "turkish": "O (şey)", "emoji": "📦" },
+        { "english": "We", "turkish": "Biz", "emoji": "👥" },
+        { "english": "They", "turkish": "Onlar", "emoji": "👫" },
+        { "english": "Me", "turkish": "Beni", "emoji": "🫵" }
+      ],
+      "testQuestions": [
+        {
+          "question": "Aşağıdakilerden hangisi bir zamirdir?",
+          "options": ["Book", "He", "Beautiful", "Run"],
+          "correct": 1,
+          "explanation": "'He' (o) bir zamirdir."
+        },
+        {
+          "question": "'I am happy.' cümlesindeki zamir hangisidir?",
+          "options": ["am", "happy", "I", "Zamir yok"],
+          "correct": 2,
+          "explanation": "'I' (ben) cümledeki zamirdir."
+        },
+        {
+          "question": "'She' zamiri kimi temsil eder?",
+          "options": ["Erkek", "Kadın", "Nesne", "Grup"],
+          "correct": 1,
+          "explanation": "'She' (o) kadını temsil eder."
+        },
+        {
+          "question": "'We' zamiri kaç kişiyi temsil eder?",
+          "options": ["Bir kişi", "İki kişi", "Birden fazla kişi", "Bir nesne"],
+          "correct": 2,
+          "explanation": "'We' (biz) birden fazla kişiyi temsil eder."
+        },
+        {
+          "question": "'They' zamiri kimi temsil eder?",
+          "options": ["Bir erkek", "Bir kadın", "Birden fazla kişi", "Bir nesne"],
+          "correct": 2,
+          "explanation": "'They' (onlar) birden fazla kişiyi temsil eder."
+        },
+        {
+          "question": "'It' zamiri neyi temsil eder?",
+          "options": ["Erkek", "Kadın", "Nesne", "Grup"],
+          "correct": 2,
+          "explanation": "'It' (o) nesneleri temsil eder."
+        },
+        {
+          "question": "'You' zamiri kaç kişiye hitap eder?",
+          "options": ["Sadece bir kişiye", "Birden fazla kişiye", "İkisine de", "Hiç kimseye"],
+          "correct": 2,
+          "explanation": "'You' (sen) hem bir kişiye hem de birden fazla kişiye hitap edebilir."
+        },
+        {
+          "question": "'Me' zamiri hangi durumda kullanılır?",
+          "options": ["Özne olarak", "Nesne olarak", "Sıfat olarak", "Fiil olarak"],
+          "correct": 1,
+          "explanation": "'Me' (beni) nesne olarak kullanılır."
+        },
+        {
+          "question": "'He is a teacher.' cümlesindeki zamir hangisidir?",
+          "options": ["is", "teacher", "He", "a"],
+          "correct": 2,
+          "explanation": "'He' (o) cümledeki zamirdir."
+        },
+        {
+          "question": "Aşağıdakilerden hangisi zamir değildir?",
+          "options": ["I", "You", "Beautiful", "They"],
+          "correct": 2,
+          "explanation": "'Beautiful' (güzel) sıfat olup zamir değildir."
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "title": "Ders 5: Sayılar (Numbers)",
+      "titleEn": "Lesson 5: Numbers",
+      "description": "Sayıları ve saymayı öğrenin",
+      "icon": "🔢",
+      "color": "#F38181",
+      "words": [
+        { "english": "One", "turkish": "Bir", "emoji": "1️⃣" },
+        { "english": "Two", "turkish": "İki", "emoji": "2️⃣" },
+        { "english": "Three", "turkish": "Üç", "emoji": "3️⃣" },
+        { "english": "Four", "turkish": "Dört", "emoji": "4️⃣" },
+        { "english": "Five", "turkish": "Beş", "emoji": "5️⃣" },
+        { "english": "Six", "turkish": "Altı", "emoji": "6️⃣" },
+        { "english": "Seven", "turkish": "Yedi", "emoji": "7️⃣" },
+        { "english": "Eight", "turkish": "Sekiz", "emoji": "8️⃣" }
+      ],
+      "testQuestions": [
+        {
+          "question": "'One' sayısı kaçtır?",
+          "options": ["1", "2", "3", "4"],
+          "correct": 0,
+          "explanation": "'One' (bir) sayısı 1'dir."
+        },
+        {
+          "question": "'Five' sayısı kaçtır?",
+          "options": ["4", "5", "6", "7"],
+          "correct": 1,
+          "explanation": "'Five' (beş) sayısı 5'tir."
+        },
+        {
+          "question": "'Three' sayısı kaçtır?",
+          "options": ["2", "3", "4", "5"],
+          "correct": 1,
+          "explanation": "'Three' (üç) sayısı 3'tür."
+        },
+        {
+          "question": "'Eight' sayısı kaçtır?",
+          "options": ["7", "8", "9", "10"],
+          "correct": 1,
+          "explanation": "'Eight' (sekiz) sayısı 8'dir."
+        },
+        {
+          "question": "'Two' sayısı kaçtır?",
+          "options": ["1", "2", "3", "4"],
+          "correct": 1,
+          "explanation": "'Two' (iki) sayısı 2'dir."
+        },
+        {
+          "question": "'Six' sayısı kaçtır?",
+          "options": ["5", "6", "7", "8"],
+          "correct": 1,
+          "explanation": "'Six' (altı) sayısı 6'dır."
+        },
+        {
+          "question": "'Four' sayısı kaçtır?",
+          "options": ["3", "4", "5", "6"],
+          "correct": 1,
+          "explanation": "'Four' (dört) sayısı 4'tür."
+        },
+        {
+          "question": "'Seven' sayısı kaçtır?",
+          "options": ["6", "7", "8", "9"],
+          "correct": 1,
+          "explanation": "'Seven' (yedi) sayısı 7'dir."
+        },
+        {
+          "question": "1 + 1 kaçtır?",
+          "options": ["One", "Two", "Three", "Four"],
+          "correct": 1,
+          "explanation": "1 + 1 = 2 (Two)"
+        },
+        {
+          "question": "3 + 2 kaçtır?",
+          "options": ["Three", "Four", "Five", "Six"],
+          "correct": 2,
+          "explanation": "3 + 2 = 5 (Five)"
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "title": "Ders 6: Renkler (Colors)",
+      "titleEn": "Lesson 6: Colors",
+      "description": "Renkleri ve tanımlamalarını öğrenin",
+      "icon": "🎨",
+      "color": "#AA96DA",
+      "words": [
+        { "english": "Red", "turkish": "Kırmızı", "emoji": "🔴" },
+        { "english": "Blue", "turkish": "Mavi", "emoji": "🔵" },
+        { "english": "Green", "turkish": "Yeşil", "emoji": "🟢" },
+        { "english": "Yellow", "turkish": "Sarı", "emoji": "🟡" },
+        { "english": "Black", "turkish": "Siyah", "emoji": "⚫" },
+        { "english": "White", "turkish": "Beyaz", "emoji": "⚪" },
+        { "english": "Purple", "turkish": "Mor", "emoji": "🟣" },
+        { "english": "Orange", "turkish": "Turuncu", "emoji": "🟠" }
+      ],
+      "testQuestions": [
+        {
+          "question": "'Red' rengi nedir?",
+          "options": ["Mavi", "Kırmızı", "Yeşil", "Sarı"],
+          "correct": 1,
+          "explanation": "'Red' (kırmızı) rengidir."
+        },
+        {
+          "question": "'Blue' rengi nedir?",
+          "options": ["Kırmızı", "Mavi", "Yeşil", "Sarı"],
+          "correct": 1,
+          "explanation": "'Blue' (mavi) rengidir."
+        },
+        {
+          "question": "'Green' rengi nedir?",
+          "options": ["Kırmızı", "Mavi", "Yeşil", "Sarı"],
+          "correct": 2,
+          "explanation": "'Green' (yeşil) rengidir."
+        },
+        {
+          "question": "'Yellow' rengi nedir?",
+          "options": ["Kırmızı", "Mavi", "Yeşil", "Sarı"],
+          "correct": 3,
+          "explanation": "'Yellow' (sarı) rengidir."
+        },
+        {
+          "question": "'Purple' rengi nedir?",
+          "options": ["Kırmızı", "Mavi", "Mor", "Sarı"],
+          "correct": 2,
+          "explanation": "'Purple' (mor) rengidir."
+        },
+        {
+          "question": "'Orange' rengi nedir?",
+          "options": ["Kırmızı", "Mavi", "Turuncu", "Sarı"],
+          "correct": 2,
+          "explanation": "'Orange' (turuncu) rengidir."
+        },
+        {
+          "question": "'Black' rengi nedir?",
+          "options": ["Beyaz", "Siyah", "Gri", "Kahverengi"],
+          "correct": 1,
+          "explanation": "'Black' (siyah) rengidir."
+        },
+        {
+          "question": "'White' rengi nedir?",
+          "options": ["Beyaz", "Siyah", "Gri", "Kahverengi"],
+          "correct": 0,
+          "explanation": "'White' (beyaz) rengidir."
+        },
+        {
+          "question": "Kırmızı rengin İngilizce adı nedir?",
+          "options": ["Blue", "Red", "Green", "Yellow"],
+          "correct": 1,
+          "explanation": "Kırmızı rengin İngilizce adı 'Red' dir."
+        },
+        {
+          "question": "Yeşil rengin İngilizce adı nedir?",
+          "options": ["Blue", "Red", "Green", "Yellow"],
+          "correct": 2,
+          "explanation": "Yeşil rengin İngilizce adı 'Green' dir."
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "title": "Ders 7: Yiyecekler (Foods)",
+      "titleEn": "Lesson 7: Foods",
+      "description": "Yiyecekleri ve içecekleri öğrenin",
+      "icon": "🍎",
+      "color": "#FCBAD3",
+      "words": [
+        { "english": "Apple", "turkish": "Elma", "emoji": "🍎" },
+        { "english": "Bread", "turkish": "Ekmek", "emoji": "🍞" },
+        { "english": "Milk", "turkish": "Süt", "emoji": "🥛" },
+        { "english": "Cheese", "turkish": "Peynir", "emoji": "🧀" },
+        { "english": "Egg", "turkish": "Yumurta", "emoji": "🥚" },
+        { "english": "Rice", "turkish": "Pirinç", "emoji": "🍚" },
+        { "english": "Banana", "turkish": "Muz", "emoji": "🍌" },
+        { "english": "Orange", "turkish": "Portakal", "emoji": "🍊" }
+      ],
+      "testQuestions": [
+        {
+          "question": "'Apple' nedir?",
+          "options": ["Ekmek", "Elma", "Süt", "Peynir"],
+          "correct": 1,
+          "explanation": "'Apple' (elma) bir meyvedir."
+        },
+        {
+          "question": "'Bread' nedir?",
+          "options": ["Ekmek", "Elma", "Süt", "Peynir"],
+          "correct": 0,
+          "explanation": "'Bread' (ekmek) bir tahıl ürünüdür."
+        },
+        {
+          "question": "'Milk' nedir?",
+          "options": ["Ekmek", "Elma", "Süt", "Peynir"],
+          "correct": 2,
+          "explanation": "'Milk' (süt) bir içecektir."
+        },
+        {
+          "question": "'Cheese' nedir?",
+          "options": ["Ekmek", "Elma", "Süt", "Peynir"],
+          "correct": 3,
+          "explanation": "'Cheese' (peynir) bir süt ürünüdür."
+        },
+        {
+          "question": "'Egg' nedir?",
+          "options": ["Ekmek", "Elma", "Yumurta", "Peynir"],
+          "correct": 2,
+          "explanation": "'Egg' (yumurta) bir protein kaynağıdır."
+        },
+        {
+          "question": "'Rice' nedir?",
+          "options": ["Ekmek", "Elma", "Pirinç", "Peynir"],
+          "correct": 2,
+          "explanation": "'Rice' (pirinç) bir tahıl ürünüdür."
+        },
+        {
+          "question": "'Banana' nedir?",
+          "options": ["Ekmek", "Muz", "Süt", "Peynir"],
+          "correct": 1,
+          "explanation": "'Banana' (muz) bir meyvedir."
+        },
+        {
+          "question": "'Orange' nedir?",
+          "options": ["Ekmek", "Portakal", "Süt", "Peynir"],
+          "correct": 1,
+          "explanation": "'Orange' (portakal) bir meyvedir."
+        },
+        {
+          "question": "Hangi yiyecek sağlıklı bir kahvaltıdır?",
+          "options": ["Bread", "Milk", "Egg", "Hepsi"],
+          "correct": 3,
+          "explanation": "Bread, Milk ve Egg hepsi sağlıklı kahvaltı seçenekleridir."
+        },
+        {
+          "question": "Elmanın İngilizce adı nedir?",
+          "options": ["Bread", "Apple", "Milk", "Cheese"],
+          "correct": 1,
+          "explanation": "Elmanın İngilizce adı 'Apple' dir."
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "title": "Ders 8: Hayvanlar (Animals)",
+      "titleEn": "Lesson 8: Animals",
+      "description": "Hayvanları ve seslerini öğrenin",
+      "icon": "🐾",
+      "color": "#A8D8EA",
+      "words": [
+        { "english": "Dog", "turkish": "Köpek", "emoji": "🐕" },
+        { "english": "Cat", "turkish": "Kedi", "emoji": "🐱" },
+        { "english": "Bird", "turkish": "Kuş", "emoji": "🐦" },
+        { "english": "Fish", "turkish": "Balık", "emoji": "🐠" },
+        { "english": "Lion", "turkish": "Aslan", "emoji": "🦁" },
+        { "english": "Elephant", "turkish": "Fil", "emoji": "🐘" },
+        { "english": "Monkey", "turkish": "Maymun", "emoji": "🐵" },
+        { "english": "Rabbit", "turkish": "Tavşan", "emoji": "🐰" }
+      ],
+      "testQuestions": [
+        {
+          "question": "'Dog' nedir?",
+          "options": ["Kedi", "Köpek", "Kuş", "Balık"],
+          "correct": 1,
+          "explanation": "'Dog' (köpek) bir evcil hayvandır."
+        },
+        {
+          "question": "'Cat' nedir?",
+          "options": ["Kedi", "Köpek", "Kuş", "Balık"],
+          "correct": 0,
+          "explanation": "'Cat' (kedi) bir evcil hayvandır."
+        },
+        {
+          "question": "'Bird' nedir?",
+          "options": ["Kedi", "Köpek", "Kuş", "Balık"],
+          "correct": 2,
+          "explanation": "'Bird' (kuş) bir hayvan türüdür."
+        },
+        {
+          "question": "'Fish' nedir?",
+          "options": ["Kedi", "Köpek", "Kuş", "Balık"],
+          "correct": 3,
+          "explanation": "'Fish' (balık) suda yaşayan bir hayvandır."
+        },
+        {
+          "question": "'Lion' nedir?",
+          "options": ["Aslan", "Fil", "Maymun", "Tavşan"],
+          "correct": 0,
+          "explanation": "'Lion' (aslan) vahşi bir hayvandır."
+        },
+        {
+          "question": "'Elephant' nedir?",
+          "options": ["Aslan", "Fil", "Maymun", "Tavşan"],
+          "correct": 1,
+          "explanation": "'Elephant' (fil) büyük bir hayvandır."
+        },
+        {
+          "question": "'Monkey' nedir?",
+          "options": ["Aslan", "Fil", "Maymun", "Tavşan"],
+          "correct": 2,
+          "explanation": "'Monkey' (maymun) akıllı bir hayvandır."
+        },
+        {
+          "question": "'Rabbit' nedir?",
+          "options": ["Aslan", "Fil", "Maymun", "Tavşan"],
+          "correct": 3,
+          "explanation": "'Rabbit' (tavşan) evcil bir hayvandır."
+        },
+        {
+          "question": "Köpeğin İngilizce adı nedir?",
+          "options": ["Cat", "Dog", "Bird", "Fish"],
+          "correct": 1,
+          "explanation": "Köpeğin İngilizce adı 'Dog' dur."
+        },
+        {
+          "question": "Hangi hayvan uçabilir?",
+          "options": ["Dog", "Cat", "Bird", "Fish"],
+          "correct": 2,
+          "explanation": "'Bird' (kuş) uçabilen bir hayvandır."
+        }
+      ]
+    }
+  ]
+}
+
